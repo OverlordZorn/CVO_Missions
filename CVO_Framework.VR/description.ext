@@ -1,0 +1,26 @@
+
+loadScreen = "img\voron_flag_red.paa";
+author = "24th Chorni Voron";
+onLoadName = "CVO Mission Framework";
+onLoadMission = "CVO Mission Framework";
+enabledebugconsole = 1;
+
+
+
+respawn = 3;			// 3 = base; with no marker, they'll respawn at their starting position.
+respawnDelay = 60;		// timer
+respawnDialog = 1;		
+respawnOnStart = 0;
+
+respawnTemplates[] = {"Wave","Counter"};
+//respawnTemplates[] = {"Tickets","Counter","Wave"};
+
+
+// Disable BI wreck system (H&M handle it internally)
+wreckManagerMode = 0;
+corpseManagerMode = 0;
+
+disabledAI = 1;
+
+#include "defines.hpp"
+#include "testDisplay.hpp"
